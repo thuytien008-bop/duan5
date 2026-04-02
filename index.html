@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang cá nhân</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* Ảnh nền + tiêu đề */
+        .header {
+            position: relative;
+            text-align: center;
+            color: red;
+        }
+
+        .header img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .header h1 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Menu */
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* Nội dung */
+        .content {
+            padding: 20px;
+        }
+
+        .content img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #00cfcf;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Ảnh tròn góc phải */
+        .avatar-fixed {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .avatar-fixed img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="nen.jpg">
+        <h1>CHÀO MỪNG ĐẾN VỚI TRANG WEB CÁ NHÂN<br> Lê Thị Thủy Tiên</h1>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <div>Chia sẻ</div>
+        <div>Học hỏi</div>
+        <div>Sáng tạo</div>
+    </div>
+
+    <!-- Nội dung -->
+    <div class="content">
+        <img src="avatar.jpg">
+        <p>- Tên: Lê Thị Thủy Tiên</p>
+        <p>- Ngày sinh: 17/01/2008</p>
+        <p>- Giới tính: Nữ</p>
+        <p>- Sở thích: Đi du lịch</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© Copyright 2026.Lê Thị Thủy Tiên</p>
+        <p>Số điện thoại: 0879586938</p>
+        <p>Liên hệ: thuy98917@gmail.com</p>
+    </div>
+
+    <!-- Ảnh tròn -->
+    <div class="avatar-fixed">
+        <img src="avatar2.jpg">
+    </div>
+
+</body>
+</html>
